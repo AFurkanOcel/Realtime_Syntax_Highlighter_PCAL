@@ -27,13 +27,15 @@ Uygulama aşağıdaki temel bileşenlerden oluşur:
 
 ## ✅ Vurgulanan Token Türleri
 
-| Token Türü    | Açıklama                      |
-|----------------|-------------------------------|
-| Tanımlayıcılar | Değişken ve fonksiyon isimleri |
-| Sayılar        | Tam sayılar                    |
-| Operatörler    | `+`, `-`, `*`, `/` vb.         |
-| Atamalar       | `=` işareti                    |
-| Noktalama      | `,`, `(`, `)`, `?` gibi simgeler |
+| Token Türü   | Açıklama                                                                 |
+|--------------|--------------------------------------------------------------------------|
+| IDENTIFIER   | Değişken veya fonksiyon isimlerini temsil eder. Harflerden oluşur.      |
+| NUMBER       | Tam sayılardan oluşan sabit sayısal değerlerdir.                        |
+| OPERATOR     | Toplama, çıkarma, çarpma, bölme gibi temel matematiksel operatörlerdir. |
+| EQUALS       | Atama yapmak için kullanılan eşittir (`=`) sembolüdür.                  |
+| QUESTION     | İşlemin sonucunu almak için kullanılan soru işaretidir (`?`).           |
+| DELIMITER    | Satır sonunu belirtmek için kullanılan ayraçtır (bu projede `,`).       |
+| PAREN        | İşlem önceliği belirtmek için kullanılan parantezlerdir. (`(` ve `)`)   |
 
 ---
 
