@@ -55,7 +55,7 @@ Projede kullanılan yöntemleri ve geliştirme sürecini anlatan detaylı yazı:
 
 ## 📘 Dokümantasyon
 
-🔗 Proje Raporu (PDF) – Detaylı teknik dokümantasyon ve geliştirme sürecine ilişkin tüm açıklamaları bu raporda görüntüleyebilirsiniz.
+🔗 [Proje Raporu (PDF)](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/rapor.pdf) – Detaylı teknik dokümantasyon ve geliştirme sürecine ilişkin tüm açıklamaları bu raporda görüntüleyebilirsiniz.
 
 ### ➤ Dil ve Gramer Seçimi
 Proje, PCAL adlı sade yapılı, öğretici bir dille gerçekleştirildi. Kendi grameri tanımlandı ve uygulandı.
