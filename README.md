@@ -83,13 +83,6 @@ Kullanıcı yazarken anında analiz ve renklendirme yapılır. Arayüz, sade ve 
 
 ---
 
-## 📅 Proje Takvimi
-
-- ✅ Ara Rapor Teslimi: 07 Nisan 2025  
-- ✅ Final Teslim Tarihi: 06 Haziran 2025
-
----
-
 ## 👤 Geliştirici
 
 **Ahmet Furkan Öcel**  
