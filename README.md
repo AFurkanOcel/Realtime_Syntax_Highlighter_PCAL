@@ -49,21 +49,17 @@ Aşağıdaki bağlantıdan uygulamanın tanıtım videosuna ulaşabilirsiniz:
 
 Projede kullanılan yöntemleri ve geliştirme sürecini anlatan detaylı yazı:
 
-🔗 [Google Docs Makale Bağlantısı](https://docs.google.com/document/d/your-doc-id/view)
+🔗 [Google Docs Makale Bağlantısı](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/makale.pdf)
 
 ---
 
-### 📂 Proje Yapısı
+## 📄 Rapor
 
-```
-realtime-syntax-highlighter/
-├── lexer.py             # Lexical analizör (tokenizer)
-├── parser.py            # Sözdizim analizörü (parser)
-├── highlighter.py       # Renkleme mantığı
-├── gui.py               # Tkinter GUI uygulaması
-├── pcal_grammar.txt     # PCAL dilbilgisi tanımı
-├── README.md            # Proje dökümanı
-```
+Projenin raporu:
+
+🔗 [Google Docs Makale Bağlantısı](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/makale.pdf)
+
+---
 
 ## 📘 Dokümantasyon Özeti
 
