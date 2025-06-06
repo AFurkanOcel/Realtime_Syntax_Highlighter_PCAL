@@ -1,2 +1,103 @@
-# Realtime_Syntax_Highlighter_PCAL
-PCAL  is a simple, custom-designed mini-language. This project implements a real-time syntax highlighter for PCAL using a custom lexer and top-down parser, built without any external libraries. It highlights at least five token types and includes a GUI for live code editing and instant syntax feedback.
+# Gerçek Zamanlı Sözdizimi Vurgulayıcı (PCAL için)
+
+Bu proje, **gerçek zamanlı ve biçimsel dilbilgisine dayalı** bir sözdizimi vurgulayıcıdır.  
+Kullanıcı yazdıkça, yazdığı metin anında analiz edilerek en az 5 farklı token türü renklendirilir.  
+Proje tamamen sıfırdan geliştirilmiştir ve **herhangi bir sözdizimi vurgulama kütüphanesi kullanılmamıştır**.
+
+## 🔍 Proje Özeti
+
+Uygulama aşağıdaki temel bileşenlerden oluşur:
+
+- **Lexical Analyzer (Lexer)**: Giriş metnini düzenli ifadelere göre tokenize eder.
+- **Syntax Analyzer (Parser)**: Token dizisini bağlamdan bağımsız gramerle kontrol eder.
+- **Vurgulama Motoru**: Token tiplerine göre renk ataması yapar.
+- **Arayüz (GUI)**: Tkinter ile geliştirilmiş olup kullanıcı yazarken anında vurgulama sağlar.
+
+> ⚠️ Herhangi bir hazır vurgulama kütüphanesi kullanılmamıştır.
+
+## 🛠 Kullanılan Teknolojiler
+
+- **Programlama Dili**: Python 3
+- **Arayüz**: Tkinter
+- **Parser Türü**: Top-Down (Yukarıdan Aşağıya) - Recursive Descent
+- **Lexer Yöntemi**: Durum Diyagramı & Programatik Uygulama
+- **Dil**: PCAL (basit yapılı, eğitim amaçlı sahte bir programlama dili)
+
+---
+
+## ✅ Vurgulanan Token Türleri
+
+| Token Türü    | Açıklama                      |
+|----------------|-------------------------------|
+| Tanımlayıcılar | Değişken ve fonksiyon isimleri |
+| Sayılar        | Tam sayılar                    |
+| Operatörler    | `+`, `-`, `*`, `/` vb.         |
+| Atamalar       | `=` işareti                    |
+| Noktalama      | `,`, `(`, `)`, `?` gibi simgeler |
+
+---
+
+## 📺 Tanıtım Videosu
+
+Aşağıdaki bağlantıdan uygulamanın tanıtım videosuna ulaşabilirsiniz:
+
+🔗 [Google Drive Video Bağlantısı](https://www.youtube.com/watch?v=eCkWtttOFr0)
+
+---
+
+## 📄 Makale
+
+Projede kullanılan yöntemleri ve geliştirme sürecini anlatan detaylı yazı:
+
+🔗 [Google Docs Makale Bağlantısı](https://docs.google.com/document/d/your-doc-id/view)
+
+---
+
+### 📂 Proje Yapısı
+
+```
+realtime-syntax-highlighter/
+├── lexer.py             # Lexical analizör (tokenizer)
+├── parser.py            # Sözdizim analizörü (parser)
+├── highlighter.py       # Renkleme mantığı
+├── gui.py               # Tkinter GUI uygulaması
+├── pcal_grammar.txt     # PCAL dilbilgisi tanımı
+├── README.md            # Proje dökümanı
+```
+
+## 📘 Dokümantasyon Özeti
+
+### ➤ Dil ve Gramer Seçimi
+Proje, PCAL adlı sade yapılı, öğretici bir dille gerçekleştirildi. Kendi grameri tanımlandı ve uygulandı.
+
+### ➤ Sözdizimi Analizi
+Recursive Descent yöntemiyle yukarıdan aşağıya sözdizimi analizi yapıldı. Giriş, tanımlı dilbilgisine göre doğrulandı.
+
+### ➤ Lexical Analiz
+Lexer, Python ve düzenli ifadelerle sıfırdan geliştirildi. Durum diyagramına dayalı olarak çalışır.
+
+### ➤ Parser Yöntemi
+Yukarıdan aşağıya (top-down) yaklaşımıyla, recursive descent tekniğiyle analiz yapılır.
+
+### ➤ Vurgulama Şeması
+Her token türü için farklı renkler atanarak `Text` bileşeninde `tag_config()` ile uygulanır.
+
+### ➤ Arayüz Uygulaması
+Kullanıcı yazarken anında analiz ve renklendirme yapılır. Arayüz, sade ve kullanıcı dostudur.
+
+---
+
+## 📅 Proje Takvimi
+
+- ✅ Ara Rapor Teslimi: 07 Nisan 2025  
+- ✅ Final Teslim Tarihi: 06 Haziran 2025
+
+---
+
+## 👤 Geliştirici
+
+**Ahmet Furkan Öcel**  
+Bilgisayar Mühendisliği Öğrencisi  
+Bursa Teknik Üniversitesi
+
+---
