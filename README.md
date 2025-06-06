@@ -57,7 +57,7 @@ Projede kullanılan yöntemleri ve geliştirme sürecini anlatan detaylı yazı:
 
 Projenin raporu:
 
-🔗 [Google Docs Makale Bağlantısı](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/makale.pdf)
+🔗 [Google Docs Makale Bağlantısı](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/rapor.pdf)
 
 ---
 
