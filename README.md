@@ -1,4 +1,4 @@
-# 🖋️ Real-Time Syntax Highlighter (PCAL)
+# Real-Time Syntax Highlighter (PCAL)
 
 This project is a **real-time, grammar-based** syntax highlighter.  
 As the user types, the input is analyzed instantly and at least 5 different token types are highlighted.  
