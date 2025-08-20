@@ -5,10 +5,12 @@ Kullanıcı yazdıkça, yazdığı metin anında analiz edilerek en az 5 farklı
 Proje tamamen sıfırdan geliştirilmiştir ve **herhangi bir sözdizimi vurgulama kütüphanesi kullanılmamıştır**.
 
 Dark Mode
+
 <img width="498" height="412" alt="pcal_dark" src="https://github.com/user-attachments/assets/060a749a-c3fc-4a8f-9759-5b9c61deab8a" />
 
 
 Light Mode
+
 <img width="498" height="412" alt="pcal" src="https://github.com/user-attachments/assets/0dea591d-a954-4379-841e-b5c705cf0be8    " />
 
 ## 🔍 Proje Özeti
