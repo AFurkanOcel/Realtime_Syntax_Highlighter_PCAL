@@ -15,6 +15,29 @@ with a custom lexer and recursive descent parser.
 
 ---
 
+## Project Overview
+
+The application consists of the following core components:
+
+- **Lexical Analyzer (Lexer)**: Tokenizes the input based on regular expressions.  
+- **Syntax Analyzer (Parser)**: Checks the token sequence against a context-free grammar.  
+- **Highlighting Engine**: Assigns colors based on token types.  
+- **GUI**: Developed using Tkinter, highlights syntax in real-time as the user types.  
+
+> ⚠️ No ready-made highlighting libraries were used.
+
+---
+
+## Technologies Used
+
+- **Programming Language**: Python 3  
+- **GUI**: Tkinter  
+- **Parser Type**: Top-Down (Recursive Descent)  
+- **Lexer Method**: State Diagram & Programmatic Implementation  
+- **Language**: PCAL (simple, educational custom programming language)  
+
+---
+
 ## Project Structure
 
 ```text
@@ -42,29 +65,6 @@ Realtime_Syntax_Highlighter_PCAL/
 ### Light Mode
 
 <img width="498" height="412" alt="pcal" src="https://github.com/user-attachments/assets/0dea591d-a954-4379-841e-b5c705cf0be8" />
-
----
-
-## Project Overview
-
-The application consists of the following core components:
-
-- **Lexical Analyzer (Lexer)**: Tokenizes the input based on regular expressions.  
-- **Syntax Analyzer (Parser)**: Checks the token sequence against a context-free grammar.  
-- **Highlighting Engine**: Assigns colors based on token types.  
-- **GUI**: Developed using Tkinter, highlights syntax in real-time as the user types.  
-
-> ⚠️ No ready-made highlighting libraries were used.
-
----
-
-## Technologies Used
-
-- **Programming Language**: Python 3  
-- **GUI**: Tkinter  
-- **Parser Type**: Top-Down (Recursive Descent)  
-- **Lexer Method**: State Diagram & Programmatic Implementation  
-- **Language**: PCAL (simple, educational custom programming language)  
 
 ---
 
