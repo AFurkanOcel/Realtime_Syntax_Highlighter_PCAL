@@ -1,8 +1,10 @@
 # Real-Time Syntax Highlighter (PCAL)
 
-This project is a **real-time, grammar-based** syntax highlighter.  
-As the user types, the input is analyzed instantly and at least 5 different token types are highlighted.  
-The project is developed entirely from scratch, and **no external syntax highlighting libraries are used**.
+![Python](https://img.shields.io/badge/Python-3-blue)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+
+This project is a **real-time, grammar-based** syntax highlighter.
 
 ---
 
@@ -59,7 +61,7 @@ The application consists of the following core components:
 
 You can watch the project demo video at the link below:
 
-🔗 [Google Drive Video Link](https://www.youtube.com/watch?v=eCkWtttOFr0)
+🔗 [YouTube Demo Video](https://www.youtube.com/watch?v=eCkWtttOFr0)
 
 ---
 
@@ -97,4 +99,4 @@ The interface highlights syntax in real-time as the user types. The GUI is simpl
 
 ## 👤 Developer
 
-**Ahmet Furkan Öcel**
+**A. Furkan ÖCEL**
