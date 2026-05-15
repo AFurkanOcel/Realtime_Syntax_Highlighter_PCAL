@@ -20,6 +20,24 @@ This project is a **real-time, grammar-based** syntax highlighter.
 
 ---
 
+## 📂 Project Structure
+
+```text
+Realtime_Syntax_Highlighter_PCAL/
+│── gui.py           # Tkinter-based real-time syntax highlighting interface
+│── lexer.py         # Lexical analyzer (tokenization using regex)
+│── parser.py        # Recursive descent parser for grammar validation
+│── deneme.pcal      # Sample PCAL source code
+│── dark.png         # Dark mode screenshot
+│── light.png        # Light mode screenshot
+│── makale.pdf       # Project paper
+│── rapor.pdf        # Detailed technical report
+│── README.md
+└── __pycache__/     # Python cache files
+```
+
+---
+
 ## 🔍 Project Overview
 
 The application consists of the following core components:
