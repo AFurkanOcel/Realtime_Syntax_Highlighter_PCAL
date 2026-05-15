@@ -1,14 +1,21 @@
-# Real-Time Syntax Highlighter (PCAL)
+<h1 align="center">Real-Time Syntax Highlighter (PCAL)</h1>
 
-![Python](https://img.shields.io/badge/Python-3-blue)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
-![Status](https://img.shields.io/badge/status-completed-brightgreen)
+<p align="center">
+Real-time syntax highlighter for the PCAL mini-language, built entirely from scratch
+with a custom lexer and recursive descent parser.
+</p>
 
-This project is a **real-time, grammar-based** syntax highlighter.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-blue"/>
+  <img src="https://img.shields.io/badge/GUI-Tkinter-green"/>
+  <img src="https://img.shields.io/badge/Parser-Recursive%20Descent-orange"/>
+  <img src="https://img.shields.io/badge/Lexer-Custom-purple"/>
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen"/>
+</p>
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Realtime_Syntax_Highlighter_PCAL/
@@ -38,7 +45,7 @@ Realtime_Syntax_Highlighter_PCAL/
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 The application consists of the following core components:
 
@@ -51,7 +58,7 @@ The application consists of the following core components:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Programming Language**: Python 3  
 - **GUI**: Tkinter  
@@ -61,7 +68,7 @@ The application consists of the following core components:
 
 ---
 
-## ✅ Highlighted Token Types
+## Highlighted Token Types
 
 | Token Type   | Description                                                                 |
 |--------------|----------------------------------------------------------------------------|
@@ -75,7 +82,7 @@ The application consists of the following core components:
 
 ---
 
-## 📺 Demo Video
+## Demo Video
 
 You can watch the project demo video at the link below:
 
@@ -83,7 +90,7 @@ You can watch the project demo video at the link below:
 
 ---
 
-## 📄 Paper
+## Paper
 
 A detailed write-up explaining the methods and development process used in this project:
 
@@ -91,7 +98,7 @@ A detailed write-up explaining the methods and development process used in this 
 
 ---
 
-## 📘 Documentation
+## Documentation
 
 🔗 [Project Report (PDF)](https://github.com/AFurkanOcel/Realtime_Syntax_Highlighter_PCAL/blob/main/rapor.pdf) – Detailed technical documentation and full explanation of the development process.
 
